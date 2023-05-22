@@ -1,5 +1,6 @@
 * {
   font-size: 22px;
+  box-sizing: border-box;
 }
 
 img {
@@ -13,17 +14,15 @@ body {
   color: white;
 }
 
-#no-bullet li {
-  list-style-type: none;
-  background-color: rgb(9, 26, 39);
-}
-
 a {
   color: white;
+  margin: 50px auto;
 }
 
 h1 {
   font-size: 36px;
+  margin: 50px auto;
+  text-align: center;
 }
 
 .center {
@@ -35,4 +34,18 @@ h1 {
 .recipes {
   width: 600px;
   margin: 50px auto;
+}
+
+#no-bullet {
+  width: 600px;
+  border: 5px solid white;
+  padding: 5px;
+  background-color: rgb(255, 255, 255);
+}
+
+#no-bullet li {
+  list-style-type: none;
+  margin: 10px;
+  padding: 30px;
+  background-color: rgb(9, 26, 39);
 }
