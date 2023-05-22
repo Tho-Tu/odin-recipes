@@ -6,6 +6,7 @@
 img {
   height: auto;
   width: 600px;
+  border-radius: 25px;
 }
 
 body {
@@ -32,7 +33,7 @@ h1 {
 }
 
 .recipes {
-  width: 600px;
+  width: 610px;
   margin: 50px auto;
 }
 
@@ -46,6 +47,20 @@ h1 {
 #no-bullet li {
   list-style-type: none;
   margin: 10px;
-  padding: 30px;
+  padding: 25px;
   background-color: rgb(9, 26, 39);
+}
+
+ol,
+ul {
+  border: 5px solid white;
+  background-color: rgb(233, 169, 169);
+}
+
+ol li,
+ul li {
+  margin: 15px;
+  padding: 15px;
+  background-color: rgb(9, 26, 39);
+  border-radius: 10px 30px;
 }
