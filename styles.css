@@ -4,7 +4,7 @@
 
 img {
   height: auto;
-  width: 20%;
+  width: 600px;
 }
 
 body {
@@ -15,6 +15,7 @@ body {
 
 #no-bullet li {
   list-style-type: none;
+  background-color: rgb(9, 26, 39);
 }
 
 a {
@@ -27,4 +28,11 @@ h1 {
 
 .center {
   text-align: center;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.recipes {
+  width: 600px;
+  margin: 50px auto;
 }
